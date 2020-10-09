@@ -5,7 +5,7 @@
         <div class="card mt-3 mb-3" style="">
             <div class="card-body">
                 <h5 class="card-title">
-                    <a href="post/{{$post->id}}">Name: {{ $post->name }}</a>
+                    <a class="nav-link cool-link" href="post/{{$post->id}}">Name: {{ $post->name }}</a>
                 </h5>
                 <p>Short description: </p>
                 <p class="short"> {{ substr($post->description,0,200)}}</p>
