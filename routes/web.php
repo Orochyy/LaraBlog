@@ -13,15 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/welcome', function () {
-    return view('welcome');
-});
 
-Route::get('test',function (){
-    return view('test');
-});
+Route::get('/', 'CatalogController@index')->name('catalog');
+Route::get('post/{id}','CatalogController@show')->name('post.show');
 
 
+Route::get('posts/edit/{id}','CatalogController@edit')->name('post.edit');
+Route::post('posts/edit/{id}','CatalogController@update')->name('post.update');
+
+
+Route::get('posts/create','CatalogController@create')->name('post.create');
+Route::post('posts/create','CatalogController@store')->name('post.store');
+
+
+Route::delete('post/{id}','CatalogController@destroy')->name('post.delete');
