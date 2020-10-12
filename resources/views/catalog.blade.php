@@ -3,7 +3,7 @@
 
 
 
-    <h1 class=" main-text">BlogPosts1</h1>
+    <h1 class=" main-text">BlogPosts</h1>
     @foreach($posts as $post)
         <div class="card mt-3 mb-3" style="">
             <div class="card-body">
