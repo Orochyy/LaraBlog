@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1c5e66f-4422-46eb-97ce-184682d0c6c4" name="Default" comment="was  created functions  for creat , show  and  and delite posts">
+    <list default="true" id="b1c5e66f-4422-46eb-97ce-184682d0c6c4" name="Default" comment="finish  project">
+      <change afterPath="$PROJECT_DIR$/.idea/laraTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/881376.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CatalogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CatalogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/catalog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,9 +150,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -144,10 +161,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OSPanel\domains\LaraBlog\public" />
+      <recent name="E:\OSPanel\domains\LaraBlog" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OSPanel\domains\laraTest" />
     </key>
@@ -211,25 +232,12 @@
       <workItem from="1599309960097" duration="391000" />
       <workItem from="1599310543496" duration="634000" />
       <workItem from="1599311187970" duration="23000" />
-      <workItem from="1599311213623" duration="10629000" />
-      <workItem from="1599495352009" duration="1965000" />
-      <workItem from="1600021782897" duration="503000" />
-      <workItem from="1600176348564" duration="71000" />
-      <workItem from="1600176440301" duration="627000" />
-      <workItem from="1600903094837" duration="20000" />
-      <workItem from="1600903116570" duration="87000" />
-      <workItem from="1600963598710" duration="522000" />
-      <workItem from="1600964421343" duration="249000" />
-      <workItem from="1601125437435" duration="244000" />
-      <workItem from="1601125836117" duration="906000" />
-      <workItem from="1602163236185" duration="456000" />
-      <workItem from="1602163717761" duration="58000" />
-      <workItem from="1602164075085" duration="5277000" />
-      <workItem from="1602237878175" duration="1389000" />
-      <workItem from="1602239835676" duration="2724000" />
-      <workItem from="1602246168855" duration="1727000" />
-      <workItem from="1602252214827" duration="2695000" />
-      <workItem from="1602256472012" duration="327000" />
+      <workItem from="1599311213623" duration="9903000" />
+      <workItem from="1602511523585" duration="13000" />
+      <workItem from="1602511538755" duration="71000" />
+      <workItem from="1602511647949" duration="17000" />
+      <workItem from="1602511666139" duration="263000" />
+      <workItem from="1602511948327" duration="5691000" />
     </task>
     <task id="LOCAL-00001" summary="updated code">
       <created>1599320556895</created>
@@ -238,21 +246,7 @@
       <option name="project" value="LOCAL" />
       <updated>1599320556895</updated>
     </task>
-    <task id="LOCAL-00002" summary="fix display datetime">
-      <created>1599321396211</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599321396211</updated>
-    </task>
-    <task id="LOCAL-00003" summary="was  created functions  for creat , show  and  and delite posts">
-      <created>1602256601205</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1602256601205</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,59 +254,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated code" />
-    <MESSAGE value="fix display datetime" />
-    <MESSAGE value="was  created functions  for creat , show  and  and delite posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="was  created functions  for creat , show  and  and delite posts" />
+    <MESSAGE value="finish  project" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish  project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="654" y="246" key="#File_Watchers" timestamp="1602240146915">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="654" y="246" key="#File_Watchers/0.0.1536.824@0.0.1536.824" timestamp="1602240146915" />
     <state x="520" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599310955192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599310955192" />
-    <state x="390" y="0" key="CommitChangelistDialog2" timestamp="1602256597555">
+    <state x="390" y="0" key="CommitChangelistDialog2" timestamp="1602519896733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602256597555" />
-    <state x="438" y="191" key="EditFileWatcherDialog" timestamp="1602240118822">
+    <state x="390" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602519896733" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602511662916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="438" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1602240118822" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602242686980">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602511662916" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602512413414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602242686980" />
-    <state width="1493" height="326" key="GridCell.Tab.0.bottom" timestamp="1599322809162">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602512413414" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602512413413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="326" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599322809162" />
-    <state width="1493" height="326" key="GridCell.Tab.0.center" timestamp="1599322809162">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602512413413" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602512413413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="326" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599322809162" />
-    <state width="1493" height="326" key="GridCell.Tab.0.left" timestamp="1599322809162">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602512413413" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602512413413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="326" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599322809162" />
-    <state width="1493" height="326" key="GridCell.Tab.0.right" timestamp="1599322809162">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602512413413" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1599311233196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="326" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599322809162" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1602241246946">
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599311233196" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602519799163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602241246946" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602256605936">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602519799163" />
+    <state x="478" y="145" width="879" height="558" key="find.popup" timestamp="1602513849224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602256605936" />
-    <state x="478" y="145" width="879" height="558" key="find.popup" timestamp="1602253999671">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="478" y="145" width="879" height="558" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1602253999671" />
+    <state x="478" y="145" width="879" height="558" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1602513849224" />
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599315796902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

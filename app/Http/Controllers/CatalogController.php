@@ -79,7 +79,50 @@ class CatalogController extends Controller
         return view('posts.show', compact('post'));
     }
 
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param \App\Post $post
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id, Post $post)
+    {
+        $post = Post::findOrFail($id);
 
+        return view('posts.edit', compact('post'));
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param \Illuminate\Http\Request $request
+     * @return \Illuminate\Http\Response
+     */
+    public function update($id, Request $request)
+    {
+        //
+        $post = Post::find($id);
+
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'description' => 'required',
+        ]);
+        if ($validator->fails()) {
+            return redirect('posts/edit/' . $id)
+                ->withErrors($validator)
+                ->withInput();
+        }
+
+        $post->name = $request->name;
+        $post->description = $request->description;
+        $post->updated_at = now();
+
+        $post->save();
+
+        $this->flashMessage($request, 'Post was updated', 'success');
+
+        return redirect()->route('catalog');
+    }
 
     /**
      * Remove the specified resource from storage.
@@ -89,7 +132,7 @@ class CatalogController extends Controller
      * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id, Post $post, Request $request)
+    public function delit($id, Post $post, Request $request)
     {
         //
         Post::find($id)->delete();
@@ -98,4 +141,6 @@ class CatalogController extends Controller
 
         return redirect()->route('catalog');
     }
+
+
 }

@@ -12,8 +12,17 @@
             </p>
         @endif
 
+        @if($post->updated_at)
+            <p class="updated">
+                Updated at: {{ $post->updated_at->format('d/m/Y H:i') }}
+            </p>
+        @endif
         <div class="d-inline-flex">
-            <form class="form-group mb-0 ml-3" action="{{ route('post.delete', $post->id) }}" method="POST">
+            <button class="btn btn-warning" style="padding: 0">
+                <a class='no-underline text-black-50' style="padding: 10px; text-decoration: none"
+                   href="{{ route('post.edit',['id' => $post->id]) }}">EDIT</a>
+            </button>
+            <form class="form-group mb-0 ml-3" action="{{ route('post.delit', $post->id) }}" method="POST">
                 @csrf
                 @method('DELETE')
                 <input class="btn btn-danger form-control text-black-50" type="submit" value="Delete">
